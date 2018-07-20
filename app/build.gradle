@@ -40,5 +40,10 @@ dependencies {
 // Room
     implementation "android.arch.persistence.room:runtime:1.1.1"
     kapt "android.arch.persistence.room:compiler:1.1.1"
+    // RecyclerView
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+
+    // CardView
+    implementation 'com.android.support:cardview-v7:27.1.1'
 
 }

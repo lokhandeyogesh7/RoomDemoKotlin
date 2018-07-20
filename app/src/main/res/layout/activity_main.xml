@@ -15,17 +15,11 @@
         android:id="@+id/btnPrintData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PRINT DATA"/>
+        android:text="PRINT DATA" />
 
-    <ScrollView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvData"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scrollbars="vertical"
-        android:id="@+id/tvData"/>
-    </ScrollView>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
